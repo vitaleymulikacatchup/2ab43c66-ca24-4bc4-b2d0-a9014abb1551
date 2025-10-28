@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+@layer utilities {
+  .cloud-shape {
+    border-radius: 50px 50px 50px 50px / 60px 60px 40px 40px;
+  }
+  
+  .cloud-shape-2 {
+    border-radius: 40px 40px 40px 40px / 50px 50px 30px 30px;
+  }
+  
+  .cloud-shape-3 {
+    border-radius: 60px 60px 60px 60px / 70px 70px 50px 50px;
+  }
+}
